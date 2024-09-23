@@ -1,1 +1,131 @@
-# NKKindness-Foundation
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NK Kindness Foundation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .cta-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NK Kindness Foundation</h1>
+        <p>Migrant Integration and Environmental Protection</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Our Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>The NK Kindness Foundation was established to address two critical issues: integrating migrants into new communities and protecting our natural environment. Founded by Mrs. Sandra Ogbonna, we strive to connect migrants with opportunities to contribute to environmental sustainability, enriching both their lives and the communities they join.</p>
+        <h3>Our Mission</h3>
+        <p>To foster thriving communities where people and nature coexist harmoniously by supporting migrants in their integration journey while involving them in initiatives that protect and restore the environment.</p>
+    </div>
+
+    <div class="container" id="services">
+        <h2>Our Services</h2>
+        <h3>Green Projects and Volunteering</h3>
+        <p>We offer opportunities to participate in tree planting, community gardening, recycling initiatives, and neighborhood clean-ups. These projects engage both migrants and locals in meaningful environmental actions.</p>
+        
+        <h3>Language and Cultural Education</h3>
+        <p>We offer comprehensive language classes, community-building events, and cultural orientation sessions to help migrants adapt to their new environment.</p>
+        
+        <h3>Environmental Education and Advocacy</h3>
+        <p>Our workshops cover topics such as waste management, energy conservation, sustainable agriculture, and sustainable living practices, aiming to educate both migrants and local community members.</p>
+        
+        <h3>Employment Support</h3>
+        <p>We provide job placement assistance, vocational training, and resume-building workshops, working closely with local businesses to create opportunities for migrants.</p>
+        
+        <h3>Legal and Social Assistance</h3>
+        <p>We offer legal aid for immigration paperwork, housing assistance, and connections to healthcare resources, helping migrants navigate the complexities of settling in a new country.</p>
+    </div>
+
+    <div class="container" id="projects">
+        <h2>Our Projects</h2>
+        <h3>Environmental Protection Initiatives</h3>
+        <p>We lead and support environmental initiatives that promote sustainability and resilience. From reforestation projects to waste reduction campaigns, we involve migrants in efforts to protect the environment.</p>
+        
+        <h3>Migrant Integration Programs</h3>
+        <p>Our integration programs provide migrants with language classes, job training, legal assistance, and cultural orientation to help them overcome the challenges of settling in a new country.</p>
+        
+        <a href="#contact" class="cta-button">Get Involved</a>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to get involved, please reach out to us:</p>
+        <p>Email: info@nk-kindness-foundation.org</p>
+        <p>Phone: +43 664 944 68 61</p>
+        <p>Address: Waidhausenstrasse 28/8/10, 1140 Vienna, Austria</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 NK Kindness Foundation. All rights reserved.</p>
+    </footer>
+</body>
+</html>
